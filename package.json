@@ -1,0 +1,22 @@
+{
+  "name": "ExpressWithMochaTesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha 'test-case/apispec.js'",
+    "test-all":"mocha test-case",
+    "test-report": "mocha test-case --reporter mochawesome --require mochawesome/register"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
+    "express": "^4.18.1",
+    "mocha": "^10.0.0",
+    "nock": "^13.2.9",
+    "sinon": "^14.0.0"
+  }
+}
